@@ -1,12 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ButtonScript: MonoBehaviour 
-{
-	public void ToMainLevel()
-	{
-		Application.LoadLevel (1);
-	}
+public class Won : MonoBehaviour {
+
 	// Use this for initialization
 	void Start () {
 	
