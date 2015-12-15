@@ -18,7 +18,7 @@ public class Hazards : MonoBehaviour {
 	{
 		
 		if (other.gameObject.tag.Equals ("GamePlayers")) 
-			gameControl.Respawn();
+			gameControl.Damage();
 		
 	}
 }
