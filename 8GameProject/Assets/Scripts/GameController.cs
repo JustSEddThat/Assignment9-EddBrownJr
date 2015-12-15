@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
 	public GameObject respawnPoint;
 
 
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -42,6 +43,8 @@ public class GameController : MonoBehaviour
 	{
 		Application.LoadLevel (2);
 	}
+
+
 	
 
 }
