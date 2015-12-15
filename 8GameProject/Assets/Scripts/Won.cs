@@ -3,6 +3,13 @@ using System.Collections;
 
 public class Won : MonoBehaviour {
 
+	public GameController controller;
+
+	public void OnTriggerEnter(Collider intruder)
+	{
+		if (intruder.gameObject.tag.Equals ("GamePlayers"))
+			controller.EndGame();
+	}
 	// Use this for initialization
 	void Start () {
 	

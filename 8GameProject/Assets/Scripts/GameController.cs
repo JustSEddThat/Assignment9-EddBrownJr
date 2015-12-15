@@ -37,9 +37,10 @@ public class GameController : MonoBehaviour
 	{
 		score ++;
 	}
-	public void Win()
-	{
 
+	public void EndGame()
+	{
+		Application.LoadLevel (2);
 	}
 	
 
